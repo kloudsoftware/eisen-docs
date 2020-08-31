@@ -2,7 +2,7 @@
 import { VApp, Renderer, cssClass, Props } from "@kloudsoftware/eisen"
 
 //own
-import { Index } from './components/helloeisen';
+import { Index } from "./components/helloeisen/Index";
 import {Navbar} from "./components/navbar/Navbar";
 
 const app = new VApp("target", new Renderer());
