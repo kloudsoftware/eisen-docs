@@ -25,7 +25,7 @@ jobs:
         CI_REGISTRY_PASSWORD: ${{ secrets.PAT }}
         CI_REGISTRY: ghcr.io
         ORG_NAME: kloudsoftware
-        K8S_SECRET_NEEDED: false
+        K8S_SECRET_NEEDED: true
         K8S_STORAGE_CLASS: nfs-client
         AUTOCD_ENV: GITHUB
         BUILD_TYPE: prod
