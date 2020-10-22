@@ -1,4 +1,5 @@
   {
+	  "registryImagePath": "ghcr.io/kloudsoftware/eisen-docs:prod",
 	"subdomains": {
     		"prod": "eisen.kloud.software",
     		"dev": "eisen.kloud.software"
